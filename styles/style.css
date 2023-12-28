@@ -1,12 +1,12 @@
 /* место для вашего кода */
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   width: 1052px;
   height: 105px;
-  justify-content: space-between;
-  position: relative;
   margin: 92px 24px 91px;
 }
 
@@ -21,9 +21,9 @@
 .nav__link {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -36,19 +36,24 @@
 .header__info-adress {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
 }
 
 .header__logo {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.hesder__logo-link {
   position: absolute;
+  right: 0;
+  left: 0;
   width: 148px;
   height: 105px;
   margin: 0 auto 2px;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 
@@ -64,22 +69,22 @@
 
 /* cover */
 .cover {
-  height: 1100px;
-  height: 747px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
   position: relative; 
   z-index: 0;
+  height: 1100px;
+  height: 747px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
 }
 
 .cover::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgb(0 0 0 / 0.5);
   z-index: -1;
+  background-color: rgb(0 0 0 / 0.5);
 }
 
 .cover__container-title1 {  
@@ -109,9 +114,9 @@
 .cover__title-span {
   color: #FFF;  
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 100%;
   letter-spacing: 28px;
   text-transform: uppercase;
@@ -126,50 +131,50 @@
 }
 
 .cover__container-description {
+  margin-left: 39px;
   color: #FFF;
-  text-align: center;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: 28px; /* 127.273% */
+  text-align: center;
   text-transform: uppercase;
   word-spacing: 17px;
-  margin-left: 39px;
 }
 
 .cover__container-btn {
   width: 252px;
   height: 52px;
-  color: #FFF;
+  margin-right: 10px;
   border-color: #FFF;
-  text-align: center;
+  color: #FFF;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  text-align: center;
   text-transform: uppercase;
   background: none;
-  margin-right: 10px;
 }
 
 /* lots */
 .lots {
-  margin-top: 173px;
   width: 1034px;
   height: 682px;
-  margin-left: 33px;
+  margin-top: 173px;
   margin-right: 33px;
+  margin-left: 33px;
 }
 
 .lots__title {
   margin-left: 36px;
   color: #000;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -183,49 +188,49 @@
 .card-title-link {
   color: #FFF;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
   line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
 }
 
 .card-description {
+  margin-right: 35px;
+  margin-bottom: 43px;
+  margin-left: 39px;
   color: #FFF;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: 120%; /* 24px */
-  margin-left: 39px;
-  margin-bottom: 43px;
-  margin-right: 35px;
 
 }
 
 .card-title {
   margin-top: 52px;
-  margin-left: 39px;
   margin-right: 35px;
+  margin-left: 39px;
 }
 
 .lots__container-card  {
+  position: relative; 
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 328px;
   height: 554px;
-  position: relative; 
-  z-index: 0;
 }
 
 .lots__container-card::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgb(0 0 0 / 0.5);
   z-index: -1;
+  background-color: rgb(0 0 0 / 0.5);
 }
 
 .card1 {
@@ -246,23 +251,23 @@
   margin-left: 39px;
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 /* about */
 .about {
-  margin-top: 179px;
   display: flex;
   width: 1082px;
   height: 546px;
+  margin-top: 179px;
 }
 
 .about__container-left {
-  margin-left: 79px;
   margin-right: 70px;
+  margin-left: 79px;
 }
 
 .about__container-right {
@@ -277,9 +282,9 @@
   margin-top: 95px;
   color: #000;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -287,9 +292,9 @@
 .about__container-right-description {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -307,8 +312,8 @@
   align-items: center;
   width: 237px;
   height: 237px;
-  background-color: #000;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .about__container-left-logo {
@@ -317,24 +322,24 @@
 
 /* footer */
 .footer {
-  margin-top: 182px;
-  margin-left: 58px;
-  margin-right: 58px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 984px;
   height: 97px;
-  justify-content: space-between;
+  margin-top: 182px;
+  margin-right: 58px;
+  margin-left: 58px;
 }
 
 .footer__info-phone {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
 }
 
@@ -348,18 +353,18 @@
 .footer__info-email {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
 }
 
 .footer__info-adress {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
 }
 
@@ -371,12 +376,12 @@
 
 .footer__nav__link {
   color: #000;
-  text-align: center;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .footer__info-email,
@@ -385,10 +390,10 @@
 }
 
 .footer__nav__list {
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  list-style-type: none;
 }
 
 .footer__info {  
