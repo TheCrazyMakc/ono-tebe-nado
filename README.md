@@ -5,7 +5,13 @@
 * Figma
 
 
+**GitHub**
 
+автор работы: Соловьев Максим
+
+ * https://github.com/TheCrazyMakc/ono-tebe-nado
+
+ * [Проект: Оно-тебе-надо](https://thecrazymakc.github.io/ono-tebe-nado/)
 
 
 **Figma**
