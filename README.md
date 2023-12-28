@@ -9,7 +9,7 @@
 
 автор работы: Соловьев Максим
 
- https://thecrazymakc.github.io/ono-tebe-nado/
+ * [Проект: Оно-тебе-надо](https://thecrazymakc.github.io/ono-tebe-nado/)
 
 
 **Figma**
