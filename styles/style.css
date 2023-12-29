@@ -144,7 +144,7 @@
   width: 252px;
   height: 52px;
   margin-right: 10px;
-  border-color: #FFF;
+  border: 2px solid #FFF;
   color: #FFF;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -159,7 +159,7 @@
 /* lots */
 .lots {
   width: 1034px;
-  height: 682px;
+  min-height: 682px;
   margin-top: 173px;
   margin-right: 33px;
   margin-left: 33px;
@@ -208,7 +208,7 @@
 }
 
 .card-title {
-  margin-top: 52px;
+  margin-top: 48px;
   margin-right: 35px;
   margin-left: 39px;
 }
@@ -220,7 +220,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 328px;
-  height: 554px;
+  min-height: 554px;
 }
 
 .lots__container-card::after {
@@ -232,15 +232,22 @@
 }
 
 .card1 {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: url(../images/photo.png);
+  background-size: cover;
+  background-position: center; 
+  
 }
 
 .card2 {
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: url(../images/photo\ \(2\).png);
+  background-size: cover;
+  background-position: center; 
 }
 
 .card3 {
-  background-image: url(../images/card-lot-03.jpg);
+  background-image: url(../images/photo\ \(1\).png);
+  background-size: cover;
+  background-position: center;  
 }
 
 .lots__link {
@@ -259,7 +266,7 @@
 .about {
   display: flex;
   width: 1082px;
-  height: 546px;
+  min-height: 546px;
   margin-top: 179px;
 }
 
@@ -273,7 +280,7 @@
   flex-direction: column;
   justify-items: center;
   width: 705px;
-  height: 449px;
+  min-height: 449px;
 }
 
 .about__container-right-title {
@@ -323,8 +330,8 @@
   justify-content: space-between;
   align-items: center;
   width: 984px;
-  height: 97px;
-  margin-top: 182px;
+  min-height: 97px;
+  margin-top: 177px;
   margin-right: 58px;
   margin-left: 58px;
   margin-bottom: 89px;
@@ -368,6 +375,7 @@
 .footer__container-social-vk,
 .footer__container-social-pinterest {
   height: 48px;
+  display: block;
 }
 
 .footer__nav__link {
@@ -400,18 +408,16 @@
   margin-bottom: 37px;
 }
 
-.footer__container-social-youtube,
-.footer__container-social-vk,
-.footer__container-social-pinterest {
-  display: block;
+.footer__container-social-youtube {
+  margin-right: 48px;
 }
 
 .footer__container-social-vk {
-  margin-left: 47px;
+  margin-left: 1px;
 }
 
 .footer__container-social-pinterest {
-  margin-left: 41px;
+  margin-left: 31px;
 }
 
 /* декор и доделки */
