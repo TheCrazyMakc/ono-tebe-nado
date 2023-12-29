@@ -47,7 +47,7 @@
   padding-left: 6px;
 }
 
-.hesder__logo-link {
+.header__logo-link {
   position: absolute;
   right: 0;
   left: 0;
@@ -87,7 +87,7 @@
   background-color: rgb(0 0 0 / 0.5);
 }
 
-.cover__container-title1 {  
+.cover__container-title-left {  
   width: 1052px;  
   padding-top: 169px;
   padding-left: 47px;
@@ -98,13 +98,13 @@
   margin-left: 30px;
 }
 
-.cover__container-title2 {
+.cover__container-title-center {
   width: 1052px;
   padding-top: 24px;
   padding-left: 329px;
 }
 
-.cover__container-title3 {
+.cover__container-title-right {
   width: 1052px;
   padding-top: 19px;
   padding-left: 10px;
@@ -177,6 +177,7 @@
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+  text-decoration-line: underline;
 }
 
 .lots__container {
@@ -185,15 +186,15 @@
   margin-top: 25px;
 }
 
-.card-title-link {
+.card-title {
   color: #FFF;
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
   line-height: 120%; /* 26.4px */
-  text-decoration-line: underline;
   text-transform: uppercase;
+  text-decoration-line: underline;
 }
 
 .card-description {
@@ -287,6 +288,7 @@
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .about__container-right-description {
@@ -298,11 +300,7 @@
   line-height: normal;
 }
 
-.flex1 {
-  margin-top: 100px;
-}
-
-.flex2 {
+.about__container-right-description-margin {
   margin-top: 20px;
 }
 /* ниже готовое лого НЕ ТРОГАТЬ */
@@ -332,6 +330,7 @@
   margin-top: 182px;
   margin-right: 58px;
   margin-left: 58px;
+  margin-bottom: 89px;
 }
 
 .footer__info-phone {
