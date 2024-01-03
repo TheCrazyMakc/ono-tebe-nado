@@ -86,6 +86,7 @@
 }
 
 .cover__container-title-left {  
+  display: block;
   width: 1052px;  
   padding-top: 169px;
   padding-left: 47px;
@@ -97,12 +98,14 @@
 }
 
 .cover__container-title-center {
+  display: block;
   width: 1052px;
   padding-top: 24px;
   padding-left: 329px;
 }
 
 .cover__container-title-right {
+  display: block;
   width: 1052px;
   padding-top: 19px;
   padding-left: 10px;
