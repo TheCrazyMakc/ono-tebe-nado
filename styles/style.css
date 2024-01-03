@@ -269,14 +269,15 @@
 /* about */
 .about {
   display: flex;
-  width: 1082px;
+  margin-left: 24px;
+  width: 1052px;
   min-height: 546px;
   margin-top: 179px;
 }
 
 .about__container-left {
   margin-right: 70px;
-  margin-left: 79px;
+  margin-left: 54px;
 }
 
 .about__container-right {
